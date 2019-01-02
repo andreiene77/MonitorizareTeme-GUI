@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inbox>
+    <nota notaID="(2, 3)">
+        <data>1</data>
+        <valoare>9.0</valoare>
+        <feedback>alt feedback</feedback>
+    </nota>
+    <nota notaID="(4, 3)">
+        <data>7</data>
+        <valoare>7.5</valoare>
+        <feedback>NOTA A FOST DIMINUATĂ CU 2.5 PUNCTE DATORITĂ ÎNTÂRZIERILOR</feedback>
+    </nota>
+    <nota notaID="(2, 5)">
+        <data>9</data>
+        <valoare>5.5</valoare>
+        <feedback>NOTA A FOST DIMINUATĂ CU 2.5 PUNCTE DATORITĂ ÎNTÂRZIERILOR</feedback>
+    </nota>
+    <nota notaID="(5, 3)">
+        <data>7</data>
+        <valoare>6.5</valoare>
+        <feedback>NOTA A FOST DIMINUATĂ CU 2.5 PUNCTE DATORITĂ ÎNTÂRZIERILOR</feedback>
+    </nota>
+    <nota notaID="(2, 4)">
+        <data>1</data>
+        <valoare>10.0</valoare>
+        <feedback>altceva</feedback>
+    </nota>
+    <nota notaID="(1, 3)">
+        <data>7</data>
+        <valoare>7.5</valoare>
+        <feedback>NOTA A FOST DIMINUATĂ CU 2.5 PUNCTE DATORITĂ ÎNTÂRZIERILOR</feedback>
+    </nota>
+    <nota notaID="(2, 2)">
+        <data>1</data>
+        <valoare>7.0</valoare>
+        <feedback>ceva feedback</feedback>
+    </nota>
+    <nota notaID="(3, 2)">
+        <data>7</data>
+        <valoare>4.0</valoare>
+        <feedback>NOTA A FOST DIMINUATĂ CU 5.0 PUNCTE DATORITĂ ÎNTÂRZIERILOR</feedback>
+    </nota>
+    <nota notaID="(1, 4)">
+        <data>3</data>
+        <valoare>10.0</valoare>
+        <feedback>ceva</feedback>
+    </nota>
+</inbox>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inbox>
+    <tema temaID="1">
+        <descriere>suma a n numere</descriere>
+        <deadline>4</deadline>
+        <startWeek>1</startWeek>
+    </tema>
+    <tema temaID="2">
+        <descriere>produsul a 2 numere</descriere>
+        <deadline>5</deadline>
+        <startWeek>1</startWeek>
+    </tema>
+    <tema temaID="3">
+        <descriere>radical din n</descriere>
+        <deadline>6</deadline>
+        <startWeek>1</startWeek>
+    </tema>
+    <tema temaID="4">
+        <descriere>entitatea student</descriere>
+        <deadline>7</deadline>
+        <startWeek>1</startWeek>
+    </tema>
+    <tema temaID="5">
+        <descriere>cea mai grea tema</descriere>
+        <deadline>8</deadline>
+        <startWeek>7</startWeek>
+    </tema>
+    <tema temaID="6">
+        <descriere>cea mai usoara tema</descriere>
+        <deadline>9</deadline>
+        <startWeek>8</startWeek>
+    </tema>
+</inbox>

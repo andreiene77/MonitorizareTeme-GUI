@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="805.0"
+            xmlns="http://javafx.com/javafx/10.0.1" fx:controller="AplicatieTeme.GUI.TemaController">
+    <children>
+        <TextField fx:id="textFieldID" layoutX="36.0" layoutY="14.0" prefHeight="27.0" prefWidth="55.0"/>
+        <Label layoutY="19.0" maxWidth="35.0" minWidth="35.0" prefHeight="17.0" prefWidth="35.0" text="ID:">
+            <padding>
+                <Insets left="10.0"/>
+            </padding>
+        </Label>
+        <TextArea fx:id="textAreaDescriere" layoutX="14.0" layoutY="81.0" prefHeight="265.0" prefWidth="335.0"/>
+        <Label layoutY="56.0" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="Descriere:">
+            <padding>
+                <Insets left="10.0"/>
+            </padding>
+        </Label>
+        <TextField fx:id="textFieldStart" layoutX="293.0" layoutY="14.0" prefHeight="27.0" prefWidth="55.0"/>
+        <Label layoutX="101.0" layoutY="19.0" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="Deadline:">
+            <padding>
+                <Insets left="10.0"/>
+            </padding>
+        </Label>
+        <TextField fx:id="textFieldDeadline" layoutX="176.0" layoutY="14.0" prefHeight="27.0" prefWidth="55.0"/>
+        <Label layoutX="238.0" layoutY="19.0" maxWidth="75.0" minWidth="55.0" prefHeight="17.0" prefWidth="55.0"
+               text="Start:">
+            <padding>
+                <Insets left="10.0"/>
+            </padding>
+        </Label>
+        <TableView fx:id="tableView" layoutX="378.0" layoutY="14.0" prefHeight="370.0" prefWidth="415.0">
+            <columns>
+                <TableColumn fx:id="tableColumnID" prefWidth="40.0" text="ID"/>
+                <TableColumn fx:id="tableColumnDesc" prefWidth="255.0" text="Descreiere"/>
+                <TableColumn fx:id="tableColumnDeadline" prefWidth="60.0" text="Deadline"/>
+                <TableColumn fx:id="tableColumnStart" prefWidth="59.0" text="Start"/>
+            </columns>
+        </TableView>
+        <Button layoutX="268.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleSave" text="Add Tema"/>
+        <Button layoutX="182.0" layoutY="357.0" mnemonicParsing="false" onAction="#handlePostpone" text="Postpone"/>
+        <TextField fx:id="textFieldPostpone" layoutX="84.0" layoutY="357.0" prefHeight="27.0" prefWidth="55.0"/>
+        <Label layoutX="14.0" layoutY="362.0" text="Amanare:"/>
+    </children>
+</AnchorPane>

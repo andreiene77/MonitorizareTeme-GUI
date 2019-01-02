@@ -1,0 +1,42 @@
+Tema: 1
+Nota: 10.0
+Predata in saptamana: 1
+Deadline: 2
+Feedback: ceva
+
+Tema: 1
+Nota: 10.0
+Predata in saptamana: 2
+Deadline: 4
+Feedback: ceva
+
+Tema: 1
+Nota: 9.0
+Predata in saptamana: 2
+Deadline: 4
+Feedback: ceva feedback
+
+Tema: 3
+Nota: 10.0
+Predata in saptamana: 3
+Deadline: 6
+Feedback: ceva feedback
+
+Tema: 3
+Nota: 10.0
+Predata in saptamana: 3
+Deadline: 6
+Feedback: ceva feedback
+
+Tema: 3
+Nota: 7.5
+Predata in saptamana: 7
+Deadline: 6
+Feedback: NOTA A FOST DIMINUATĂ CU 2.5 PUNCTE DATORITĂ ÎNTÂRZIERILOR
+
+Tema: 4
+Nota: 10.0
+Predata in saptamana: 3
+Deadline: 7
+Feedback: ceva
+

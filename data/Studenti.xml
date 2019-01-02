@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inbox>
+    <student studentID="1">
+        <nume>Ene Andrei</nume>
+        <grupa>223</grupa>
+        <email>andreiene77@gmail.com</email>
+        <prof>Profa</prof>
+    </student>
+    <student studentID="2">
+        <nume>Gica Barosanu</nume>
+        <grupa>225</grupa>
+        <email>gica@barosanu.com</email>
+        <prof>Proful</prof>
+    </student>
+    <student studentID="3">
+        <nume>Aprogramatoarei Codrin</nume>
+        <grupa>223</grupa>
+        <email>codrin@prog.com</email>
+        <prof>Profa</prof>
+    </student>
+    <student studentID="4">
+        <nume>Aprogramatoarei Alin</nume>
+        <grupa>223</grupa>
+        <email>alin@prog.com</email>
+        <prof>Profa</prof>
+    </student>
+    <student studentID="5">
+        <nume>Cineva</nume>
+        <grupa>227</grupa>
+        <email>cineva@cineva.com</email>
+        <prof>Prof</prof>
+    </student>
+</inbox>

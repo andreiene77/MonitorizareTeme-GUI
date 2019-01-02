@@ -1,0 +1,3 @@
+1, Suma a doua numere complexe, 4, 1
+2, inmultirea a doua liste, 4, 2
+3, Repository in memory, 7, 4

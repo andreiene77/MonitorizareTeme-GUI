@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="350.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/10.0.1" fx:controller="AplicatieTeme.GUI.NoteController">
+    <children>
+        <Label layoutX="16.0" layoutY="19.0" text="Tema:"/>
+        <Label layoutX="16.0" layoutY="49.0" text="Student:"/>
+        <Label layoutX="139.0" layoutY="19.0" text="Nota:"/>
+        <Label layoutX="16.0" layoutY="112.0" text="Feedback:"/>
+        <TextField fx:id="textFieldStud" layoutX="16.0" layoutY="76.0" prefHeight="27.0" prefWidth="232.0"/>
+        <TextField fx:id="textFieldValoare" layoutX="183.0" layoutY="14.0" prefHeight="27.0" prefWidth="65.0"/>
+        <TextArea fx:id="textAreaFeedback" layoutX="16.0" layoutY="135.0" prefHeight="165.0" prefWidth="232.0"
+                  wrapText="true"/>
+        <Button layoutX="16.0" layoutY="310.0" mnemonicParsing="false" onAction="#handleSave" text="Adauga Nota"/>
+        <ComboBox fx:id="comboTema" layoutX="64.0" layoutY="14.0" prefHeight="27.0" prefWidth="65.0"/>
+        <VBox fx:id="dropDownMenu" layoutX="19.0" layoutY="103.0" prefWidth="225.0"
+              style="-fx-background-color: #efefef;">
+            <opaqueInsets>
+                <Insets/>
+            </opaqueInsets>
+        </VBox>
+        <TableView fx:id="tableNote" layoutX="261.0" layoutY="14.0" prefHeight="286.0" prefWidth="528.0"/>
+        <Button layoutX="262.0" layoutY="310.0" mnemonicParsing="false" onAction="#filterTema" text="La o tema"/>
+        <Button layoutX="355.0" layoutY="310.0" mnemonicParsing="false" onAction="#filterStudent"
+                text="Ale studentului"/>
+        <Button layoutX="479.0" layoutY="310.0" mnemonicParsing="false" onAction="#filterGrupaTema"
+                text="Ale grupei la tema"/>
+        <Button layoutX="622.0" layoutY="310.0" mnemonicParsing="false" text="Perioada"/>
+        <Button layoutX="708.0" layoutY="310.0" mnemonicParsing="false" onAction="#filterGrupa" text="Ale grupei"/>
+        <ComboBox fx:id="comboGrupa" layoutX="176.0" layoutY="310.0" prefHeight="27.0" prefWidth="72.0"/>
+        <Label layoutX="127.0" layoutY="315.0" text="Grupa:"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" prefHeight="200.0" prefWidth="170.0" xmlns="http://javafx.com/javafx/10.0.1"
+      fx:controller="AplicatieTeme.GUI.MainMenuController">
+    <children>
+        <Button mnemonicParsing="false" onAction="#openStudentView" prefHeight="35.0" prefWidth="150.0" text="Studenti">
+            <VBox.margin>
+                <Insets bottom="5.0"/>
+            </VBox.margin>
+        </Button>
+        <Button mnemonicParsing="false" onAction="#openTemaView" prefHeight="35.0" prefWidth="150.0" text="Teme">
+            <VBox.margin>
+                <Insets bottom="5.0"/>
+            </VBox.margin>
+        </Button>
+        <Button mnemonicParsing="false" onAction="#openNotaView" prefHeight="35.0" prefWidth="150.0" text="Note">
+            <VBox.margin>
+                <Insets bottom="5.0"/>
+            </VBox.margin>
+        </Button>
+        <Label fx:id="labelSaptCurenta" prefHeight="17.0" prefWidth="150.0" text="Saptamana curenta:">
+            <padding>
+                <Insets left="10.0" right="10.0"/>
+            </padding>
+        </Label>
+        <Slider fx:id="sliderSaptCurenta" blockIncrement="1.0" majorTickUnit="1.0" max="14.0" min="1.0"
+                minorTickCount="0" prefHeight="38.0" prefWidth="150.0" showTickMarks="true" snapToTicks="true"
+                value="1.0"/>
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+    </padding>
+</VBox>

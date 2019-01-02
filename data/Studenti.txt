@@ -1,0 +1,4 @@
+1, Ene Andrei-Nicolae, 223, eair2289@scs.cluj.ro, Profesoara Faina
+2, Gigel Mondialul, 225, gigel@mondialul.com, Sef Bani
+3, Gigel Boss, 223, gigel@boss.com, Professoara Luiboss
+4, Sanky Bobby, 227, sanky@bobby.com, Prof

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="210.0" prefWidth="200.0"
+            xmlns="http://javafx.com/javafx/10.0.1" fx:controller="AplicatieTeme.GUI.NotaAddConfirmController">
+    <children>
+        <Label fx:id="labelNume" layoutX="14.0" layoutY="14.0" style="-fx-padding: 5;" text="Nume: "/>
+        <Label fx:id="labelTema" layoutX="14.0" layoutY="41.0" style="-fx-padding: 5;" text="Tema: "/>
+        <Label fx:id="labelNota" layoutX="14.0" layoutY="68.0" style="-fx-padding: 5;" text="Nota: "/>
+        <Label fx:id="labelPenalizare" layoutX="14.0" layoutY="95.0" style="-fx-padding: 5;" text="Penalizare: "/>
+        <Label fx:id="labelAbsent" layoutX="14.0" layoutY="122.0" style="-fx-padding: 5;" text="Absent motivat: "/>
+        <Button layoutX="14.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleSaveNota" text="OK"/>
+        <Button layoutX="125.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel"/>
+    </children>
+</AnchorPane>
