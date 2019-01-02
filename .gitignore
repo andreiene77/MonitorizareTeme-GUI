@@ -1,0 +1,5 @@
+*.xml
+*.class
+.DS_Store
+src/.DS_Store
+src/AplicatieTeme/.DS_Store
